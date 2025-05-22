@@ -1,0 +1,8 @@
+pandas 
+numpy
+scikit-learn
+kagglehub
+fastapi[all]
+optuna
+zenml
+wandb
