@@ -65,6 +65,12 @@ This project implements a full-stack machine learning pipeline to predict phone 
         ```bash
         wandb login
         ```
+6. **Setup monitoring with Logfire:**
+   * Go to [pydantic-logfire](https://pydantic.dev/logfire) and register an account.
+   * create a new project and generate a write token
+   * copy the write token
+   * create a .env file in the src folder and add this line of code in the .env file:
+     ` "LOGFIRE_TOKEN" = "INSERT YOUR WRITE TOKEN HERE" `
 
 ## Running the ML Pipeline
 
@@ -89,7 +95,7 @@ This project implements a full-stack machine learning pipeline to predict phone 
 1.  **Start the FastAPI server:**
     This command will start the API service, typically on `http://127.0.0.1:8000`.
     ```bash
-    python main.py
+    python src/main.py
     ```
 
 2.  **Access Swagger UI / API Documentation:**
