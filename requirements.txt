@@ -6,3 +6,6 @@ fastapi[all]
 optuna
 zenml
 wandb
+logfire
+logfire[fastapi]
+python-dotenv

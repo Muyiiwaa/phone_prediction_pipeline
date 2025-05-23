@@ -1,1 +1,5 @@
 .zen/
+wandb/
+src/model.pkl
+*__pycache__*
+*.env*

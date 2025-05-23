@@ -35,3 +35,8 @@ def load_data() -> Annotated[pd.DataFrame, "Training Data"]:
         logger.error(msg= f"Ecountered error {e} while loading the data")
 
     return train_df
+
+if __name__ == "__main__":
+    data = load_data()
+    print(data.columns)
+    
