@@ -5,6 +5,7 @@ kagglehub
 fastapi[all]
 optuna
 zenml
+zenml[server]
 wandb
 logfire
 logfire[fastapi]
